@@ -1,11 +1,11 @@
 <p>Clarusway<img align="right"
   src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
 
-# Project-010 : Clarus Shopping (RP-10)
+# Project-010 :  Shopping (RP-10)
 
 ## Description
 
-Project aims to create a Clarus Shopping App.
+Project aims to create a  Shopping App.
 
 ## Problem Statement
 
@@ -93,14 +93,11 @@ Build a Clarus Shopping App using ReactJS.
 
 - Step 6: Add project gif to your project and README.md file.
 
-## Demo
 
-[Live](https://clarus-shopping.vercel.app/)
+
 
 ## Notes
 
 - **The product information received from the API does not include a "quantity" key. However, you can add the quantity information when adding a product. This will enable you to easily perform quantity increment and decrement operations in the basket page.**
 
-- You can add additional functionalities to your app.
 
-**<p align="center">&#9786; Happy Coding &#9997;</p>**
