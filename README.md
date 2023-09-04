@@ -1,20 +1,15 @@
-<p>Clarusway<img align="right"
-  src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
+# Shopping Redux Toolkit React App
 
-# Project-010 :  Shopping (RP-10)
+<h3>Visit: https://shopping-app-react-redux-toolkit.netlify.app/</h3>
 
-## Description
+<img alt="alt_text" src="./shoppingcarts.gif"/>
 
-Project aims to create a  Shopping App.
 
-## Problem Statement
-
-- We are adding a new project to our portfolios. So you and your colleagues have started to work on the project.
 
 ## Project Skeleton
 
 ```
-010 - Clarus Shopping App(folder)
+010 -  Shopping App(folder)
 |
 |----readme.md         # Given to the students (Definition of the project)
 SOLUTION
@@ -50,54 +45,60 @@ SOLUTION
 ├── package.json
 └── yarn.lock
 ```
+# My Shopping Web Application
 
-## Expected Outcome
+## Overview
+The My Shopping web application is a modern e-commerce platform designed to provide users with a seamless shopping experience. It incorporates various features and technologies to enhance the shopping process. Below are the key functionalities and components of this project:
 
-![Project Snapshot](./clarus-shopping.gif)
+## 1. Home Page
+- The Home page serves as the landing page for users.
+- It displays a list of products fetched from the [Fake Store API](https://fakestoreapi.com/).
+- Users can search for products and filter them by category.
+- Products are presented with images, titles, prices, and brief descriptions.
 
-## Objective
+## 2. Product Details
+- Clicking on a product card reveals more details about the product, including a full description.
+- Users can quickly add the product to their shopping cart by clicking the "Add to Cart" button.
 
-Build a Clarus Shopping App using ReactJS.
+## 3. Shopping Cart
+- Users can view their selected products and their total price in the shopping cart.
+- The cart icon in the navigation bar displays the number of items in the cart (updated in real-time).
+- Users can increase or decrease the quantity of items in the cart.
+- The cart can be emptied with the "Empty Cart" button.
 
-### At the end of the project, following topics are to be covered;
+## 4. User Authentication
+- Users can create accounts, log in, and log out.
+- Certain features, such as accessing the shopping cart and viewing orders, are protected and require authentication.
 
-- HTML
+## 5. Category Filtering
+- Products can be filtered by category, making it easier for users to find specific items.
+- The Category Bar component provides an interactive category filter.
 
-- CSS
+## 6. Dark Mode
+- The application offers a dark theme for users who prefer it.
+- Users can toggle between light and dark themes.
 
-- JS
+## 7. Loading State
+- A loading spinner is displayed while data is fetched from the API to enhance the user experience.
 
-- ReactJS
+## 8. Responsive Design
+- The application is responsive and adapts to various screen sizes, ensuring a consistent experience across devices.
 
-- React-Redux
+## Project Structure
+The project is organized into several components and follows the Redux Toolkit for state management. Here's a brief overview of the project structure:
 
-- Material UI
+- **`src/components`**: Reusable UI components used throughout the application.
+- **`src/features`**: Redux Toolkit slices for managing application state and asynchronous API calls.
+- **`src/assets`**: Contains images, including product images and GIFs.
+- **`src/pages`**: Individual pages or views of the application.
+- **`src/App.js`**: The main application component.
+- **`src/index.js`**: The entry point of the application.
 
-### At the end of the project, students will be able to;
-
-- improve coding skills within HTML & CSS & JS & ReactJS.
-
-- use git commands (push, pull, commit, add etc.) and Github as Version Control System.
-
-## Steps to Solution
-
-- Step 1: Create React App using `yarn create react-app clarus-shopping`
-
-- Step 2 : Install `axios`, `redux` , `react-redux`, `react-router-dom`, `mui`, `mui-icons` package to your `package.json`. 
-
-- Step 3: You can use https://fakestoreapi.com/products for data.
-
-- Step 4: You can use https://fakestoreapi.com/products/categories for categories.
-
-- Step 5: Push your application into your own public repo on Github
-
-- Step 6: Add project gif to your project and README.md file.
-
-
-
-
-## Notes
-
-- **The product information received from the API does not include a "quantity" key. However, you can add the quantity information when adding a product. This will enable you to easily perform quantity increment and decrement operations in the basket page.**
-
+## Technologies Used
+* React for building the user interface.
+* Redux Toolkit for state management.
+* Axios for making HTTP requests to the Fake Store API.
+* Material-UI for styling and UI components.
+* React Router for client-side routing.
+* React-Redux for connecting React components to the Redux store.
 
