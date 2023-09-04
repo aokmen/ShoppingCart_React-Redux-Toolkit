@@ -16,7 +16,7 @@ const CategoryBar = () => {
     const [shopCategory, setShopCategory] = useState(shopping)
     useEffect (() => {
      dispatch(getCategory())
-    }, [])
+    }, [dispatch])
 
   const handleClick =(i) => {
    
