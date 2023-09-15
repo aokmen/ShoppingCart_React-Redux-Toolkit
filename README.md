@@ -5,7 +5,7 @@
 <img alt="alt_text" src="./shoppingcarts.gif"/>
 
 
-
+ 
 ## Project Skeleton
 
 ```
